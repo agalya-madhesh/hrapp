@@ -1,37 +1,89 @@
-.menu {
-    width: 250px;
-    background-color: #f4efff;
-    color: black;
-    height: 100vh;
-  }
-  
-  .logo {
-    display: flex;
-    align-items: center;
-    padding: 20px;
-  }
-  
-  .logo-icon {
-    font-size: 24px;
-    margin-right: 10px;
-  }
-  
-  .menu--list {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .item {
-    padding: 15px 20px;
-    text-decoration: none;
-    color: black;
-  }
-  
-  .item.active, .item:hover {
-    background-color: #bdb1c9;
-  }
-  
-  .icon {
-    margin-right: 10px;
-  }
-  
+.d-flex {
+  display: flex;
+  height: 100vh;
+}
+
+.icon-sidebar {
+  width: 75px; 
+  background-color:#DCE2F9; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.profile-pic-container {
+  padding: 29px;
+}
+
+.profile-pic {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+
+.icon-item {
+  color: #080808;
+  padding: 15px 0;
+  text-align: center;
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.icon-item:hover {
+  color: #f689f6;
+  transform: scale(1.1);
+}
+
+.full-sidebar {
+  width: 300px; 
+  background-color: #EDF0FC; 
+  display: flex;
+  flex-direction: column;
+  padding: 40px 0;
+}
+
+.logo {
+  margin-left:30px;
+  margin-bottom: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 20px 10px;
+  color: #080808; 
+}
+
+.header{
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.icon{
+  font-size: 1.5rem;
+}
+
+.menu-list {
+  flex-grow: 1;
+}
+
+.full-item {
+  display: flex;
+  align-items: center;
+  padding: 21px 0;
+  color: #080808;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin-left: 40px;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.full-item .icon {
+  margin-right: 10px;
+}
+
+.full-item:hover {
+  color: #f689f6;
+  font-weight: bold;
+}
