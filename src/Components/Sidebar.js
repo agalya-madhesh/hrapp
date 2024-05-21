@@ -11,7 +11,7 @@ import {
   BiCalendarAlt,
 } from "react-icons/bi";
 import "../Styles/Sidebar.css";
-import profilePic from './P1.jpg';
+import profilePic from "./P1.jpg";
 
 function Sidebar() {
   return (
@@ -35,7 +35,7 @@ function Sidebar() {
       </div>
 
       <div className="full-sidebar">
-      <div className="logo">
+        <div className="logo">
           <h2 className="header">Hr App</h2>
         </div>
         <div className="menu-list">
